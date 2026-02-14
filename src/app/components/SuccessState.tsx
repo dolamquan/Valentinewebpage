@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Heart, Stars, PartyPopper } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import loopyImg from "figma:asset/46708ecc647dfadd2bc5c92fd517fc50b2c56669.png";
+import loopyImg from "../../assets/46708ecc647dfadd2bc5c92fd517fc50b2c56669.png";
 
 export const SuccessState = () => {
   return (

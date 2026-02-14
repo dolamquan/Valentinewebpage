@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart, Sparkles, PartyPopper } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import loopyImg from "figma:asset/a4c8124db710634f4fff530ab32a7e2b805262c9.png";
+import loopyImg from "../../assets/a4c8124db710634f4fff530ab32a7e2b805262c9.png";
+
 
 interface ValentineCardProps {
   onAccept: () => void;
